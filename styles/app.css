@@ -73,6 +73,16 @@ header h1{
     height: 50px;
     color: #ff6347;
 }
+.btn3{
+  font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    border: 1px solid #ff6347;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    color: #ff6347;
+
+}
 .navbar , .navbar li{
   display: inline-block
 }
@@ -85,6 +95,26 @@ header h1{
 }
 .about, .skills{
   background-color: #101014;
+}
+.contact{
+  text-align: center;
+}
+.form{
+  margin-left: 25%;
+  text-align: start;
+}
+form input, form textarea{
+  font-family: "Poppins", sans-serif;
+  width: 75%;
+  color: #6a6d66;
+  border: 1px solid #efefef;
+  background-color: transparent;
+  border-radius: 15px;
+}
+form input{
+  margin: 5px 0;
+  height: 35px;
+  color: #6a6d66;
 }
 .hero{
   margin-left: 35px;
@@ -120,7 +150,7 @@ td, th{
   padding-top: 5px;
   padding-left: 5px;
 }
-.prog1::before{
+ .prog1::before {
   content: 'Html';
 }.prog2::before {
   content: 'Css';
@@ -130,4 +160,18 @@ td, th{
   content: 'React';
 }.prog5::before {
   content: 'Nodejs';
+}
+
+
+footer{
+  text-align: center;
+}
+footer img{
+  width: 40px;
+  height: 40px;
+  margin-left:10px;
+  margin-top: 20px;
+}
+footer a{
+  color: #ff6347;
 }
