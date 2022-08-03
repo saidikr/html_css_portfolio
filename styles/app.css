@@ -113,7 +113,21 @@ td, th{
   border: 1px solid;
   padding: 15px;
 }
-.prog{
+.prog1 , .prog2 , .prog3 , .prog4 , .prog5 {
   width: 25%;
   height: 35px;
+  text-align: start;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.prog1::before{
+  content: 'Html';
+}.prog2::before {
+  content: 'Css';
+}.prog3::before {
+  content: 'Javascript';
+}.prog4::before {
+  content: 'React';
+}.prog5::before {
+  content: 'Nodejs';
 }
